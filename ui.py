@@ -1,4 +1,4 @@
-from logger import input_data, print_data, change_data
+from logger import input_data, print_data, change_data, delete_data
 
 
 def interface():
@@ -16,4 +16,4 @@ def interface():
     elif command == 3:
         change_data()
     elif command == 4:
-        #delete_data()
+        delete_data()
